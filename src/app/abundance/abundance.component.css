@@ -1,4 +1,12 @@
-div {
+div:active h1 {
+  width: 0.5%;
+  margin: 0 auto;
+  color: #fff;
+  text-shadow: 1px 0px 1px #e6e6fa, 0px 1px 1px #dc143c, 2px 1px 1px #e6e6fa,
+    1px 2px 1px #dc143c, 3px 2px 1px #e6e6fa, 2px 3px 1px #dc143c,
+    4px 3px 1px #e6e6fa, 3px 4px 1px #dc143c, 5px 4px 1px #e6e6fa,
+    4px 5px 1px #dc143c, 6px 5px 1px #e6e6fa, 5px 6px 1px #dc143c,
+    7px 6px 1px #e6e6fa;
 }
 
 h1 {
@@ -13,6 +21,7 @@ h1 {
     4px 3px 1px #e6e6fa, 3px 4px 1px #dc143c, 5px 4px 1px #e6e6fa,
     4px 5px 1px #dc143c, 6px 5px 1px #e6e6fa, 5px 6px 1px #dc143c,
     7px 6px 1px #e6e6fa;
+    cursor: pointer;
 }
 
 h1:hover {
@@ -23,3 +32,4 @@ h1:hover {
     4px 5px 1px #e6e6fa, 6px 5px 1px #dc143c, 5px 6px 1px #e6e6fa,
     7px 6px 1px #dc143c;
 }
+
