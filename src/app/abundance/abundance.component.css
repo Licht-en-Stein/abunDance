@@ -1,22 +1,25 @@
 div {
-
 }
 
 h1 {
-writing-mode: vertical-rl;
-text-orientation: upright;
-margin: 0 auto;
-color: #FFF;
-font-size: 4rem;
-/* font-weight: bolder; */
-text-transform: uppercase;
-/* text-shadow: -5px 2px 4px #C2185B, 4px 2px 2px #C2185B, 3px 5px 1px #C2185B, -3px 3px 1px #C2185B; */
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: 1px 0px 1px #e6e6fa, 0px 1px 1px #dc143c, 2px 1px 1px #e6e6fa,
+    1px 2px 1px #dc143c, 3px 2px 1px #e6e6fa, 2px 3px 1px #dc143c,
+    4px 3px 1px #e6e6fa, 3px 4px 1px #dc143c, 5px 4px 1px #e6e6fa,
+    4px 5px 1px #dc143c, 6px 5px 1px #e6e6fa, 5px 6px 1px #dc143c,
+    7px 6px 1px #e6e6fa;
+}
 
- text-shadow: 1px 0px 1px #E6E6FA, 0px 1px 1px #DC143C,
-    2px 1px 1px #E6E6FA, 1px 2px 1px #DC143C,
-    3px 2px 1px #E6E6FA, 2px 3px 1px #DC143C,
-    4px 3px 1px #E6E6FA, 3px 4px 1px #DC143C,
-    5px 4px 1px #E6E6FA, 4px 5px 1px #DC143C,
-    6px 5px 1px #E6E6FA, 5px 6px 1px #DC143C,
-    7px 6px 1px #E6E6FA;
+h1:hover {
+  color: #dc143c;
+  text-shadow: 1px 0px 1px #e6e6fa, 0px 1px 1px #e6e6fa, 2px 1px 1px #dc143c,
+    1px 2px 1px #e6e6fa, 3px 2px 1px #dc143c, 2px 3px 1px #e6e6fa,
+    4px 3px 1px #dc143c, 3px 4px 1px #e6e6fa, 5px 4px 1px #dc143c,
+    4px 5px 1px #e6e6fa, 6px 5px 1px #dc143c, 5px 6px 1px #e6e6fa,
+    7px 6px 1px #dc143c;
 }
